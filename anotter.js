@@ -25,14 +25,18 @@ casper.then(function(){
 
 casper.wait(4000,function(){
 	casper.capture("rockyoulikeanhurricane.png",{top:0,left:0,width:1200,height:720});
-	casper.echo("Lizz Taylor");
 });
 
 casper.then(function(){
 	var result = casper.evaluate(function(){
 		return $('.setWidthOfSecondColumn').text();
-	});
-	this.echo(result);
+	});	
+	 	if(result){
+	 		this.echo(result);
+	 	}else{
+	 		this.echo("Cedula No Valida");
+	 	}
+		//this.echo(result);	
 });
 
 casper.run();
