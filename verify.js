@@ -24,7 +24,7 @@ casper.then(function(){
 });
 
 casper.wait(4000,function(){
-	casper.capture("rockyoulikeanhurricane.png",{top:0,left:0,width:1200,height:720});
+	casper.capture("verify.png",{top:0,left:0,width:1200,height:720});
 });
 
 casper.then(function(){
@@ -33,8 +33,6 @@ casper.then(function(){
 	});	
 	 	if(result){
 	 		this.echo(result);
-	 	}else{
-	 		this.echo("Cedula No Valida");
 	 	}
 		//this.echo(result);	
 });
