@@ -1,4 +1,4 @@
-# Verificador de Rut Valido
+# Verificador de Rut Valido Chileno 
 
 Script creado para verificar Rut Chileno vigente
 
