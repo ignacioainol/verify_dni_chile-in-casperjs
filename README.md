@@ -7,7 +7,7 @@ Script creado para verificar Rut Chileno vigente
 Para poder usar este script en ordenadores UNIX se debe tener instalado Casper.js y desde terminal ejecutar el sigte comando:
 
 ```bash
-casperjs --ssl-protocol=TLSv1 --ignore-ssl-errors=true verify.js ACANRODERUT-CONGUION NRODEDOCUMENTO
+casperjs --ssl-protocol=TLSv1 --ignore-ssl-errors=true verify.js <ACANRODERUT>-<CONGUION> <NRODEDOCUMENTO>
 ```
 
 ## FIRMA
